@@ -21,10 +21,30 @@
 
 ## Generator
 
+# Data Dictionary: EIA Generator Data
+
+## EIA Generator Inventory (filename.csv)
+
+Each row is one generator at one power plant. Blank cells mean the field doesn't apply.
+
 | Name | Type | Description |
 |------|------|-------------|
+| Utility ID | integer | EIA-assigned identifier for the utility |
+| Utility Name | string | Name of the utility that owns or operates the plant |
+| Plant Code | integer | EIA-assigned identifier for the plant |
+| Plant Name | string | Name of the plant |
+| State | string | Two-letter state abbreviation |
+| County | string | County where the plant is located |
+| Generator ID | string | Generator identifier within the plant (mixed values like "1", "5.1", "WT1") |
+| Unit Code | string | Code identifying the unit the generator belongs to (e.g., a combined-cycle unit) |
+| Technology | string | Generating technology (e.g., "Petroleum Liquids", "Onshore Wind Turbine", "Conventional Hydroelectric") |
+| Prime Mover | string (code) | Prime mover type code (e.g., IC = internal combustion, ST = steam turbine, HY = hydraulic turbine, WT = wind turbine) |
+| Ownership | string (code) | Ownership type (e.g., S = single owner, J = jointly owned) |
+
 
 ## Electricity Analysis
+
+
 
 | Name | Type | Description |
 |------|------|-------------|
