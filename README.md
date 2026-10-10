@@ -46,9 +46,9 @@ All analysis was done in Python using **pandas**, **Matplotlib**, and **seaborn*
 
 | File | Description |
 |------|-------------|
-| `Python_Data_Centers_Nguyen_Terreri.ipynb` | Main analysis notebook |
-| `clean_datacenters.ipynb` | Cleans the raw data center dataset (e.g., zip code formatting) |
-| `datacenters_clean.csv` | Cleaned data center locations, capacity (MW), status, and operators |
+| `UPDATE THIS` | Main analysis notebook |
+| `clean_datacenters.ipynb` | Cleans the raw data center dataset|
+| `datacenters_clean.csv` | Cleaned data center locations|
 | `EIA_Plant_Y2025.csv` | EIA power plant data, 2025 |
 | `EIA_Generator_Y2025_Current.csv` | EIA operating generators, 2025 |
 | `EIA_Generator_Y2025_Proposed.csv` | EIA proposed generators, 2025 |
