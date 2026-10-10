@@ -1,4 +1,5 @@
-# Data Dictionary for data sources and key variables used in analysis
+# Data Dictionary 
+###for data sources and key variables used in analysis
 
 ## FracTracker Database (datacenters_clean.csv)
 
@@ -16,3 +17,14 @@
 | operator_name | string | Name of facility operator |
 | sizerank | string | Categorical variable of estimated size of the facility |
 | status_group | string | Grouped and cleaned value based on status |
+
+
+## Generator
+
+| Name | Type | Description |
+|------|------|-------------|
+
+## Electricity Analysis
+
+| Name | Type | Description |
+|------|------|-------------|
